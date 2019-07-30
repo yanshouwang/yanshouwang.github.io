@@ -16,11 +16,11 @@
 title: 学海无涯，回头是岸
 email: yanshouwang@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
-  学海无涯，回头是岸
+学海无涯，回头是岸
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: iDotNET
-github_username:  iDotNET
+twitter_username: yanshouwang
+github_username:  yanshouwang
 
 # Build settings
 markdown: kramdown
