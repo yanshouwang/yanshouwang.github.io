@@ -19,14 +19,20 @@ description: >- # this means to ignore newlines until "baseurl:"
   Xamarin.Forms 从入门到放弃
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: yanshouwang
 github_username:  yanshouwang
+youtube_username: yanshouwang
+twitter_username: yanshouwang
+facebook_username: yanshouwang
+instagram_username: yanshouwang
+linkedin_username: yanshouwang
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
+lang: zh-CN
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
