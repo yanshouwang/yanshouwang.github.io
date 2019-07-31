@@ -1,2 +1,6 @@
-# 学海无涯，回头是岸
-Git Pages 从入门到放弃
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: home
+---
