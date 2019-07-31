@@ -15,10 +15,12 @@
 # in the templates via {{ site.myvariable }}.
 title: 学海无涯，回头是岸
 email: yanshouwang@outlook.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Xamarin.Forms 从入门到放弃
+description: > # this means to ignore newlines until "baseurl:"
+  爱是一道光，绿得你发慌
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# social links
 github_username:  yanshouwang
 youtube_username: yanshouwang
 twitter_username: yanshouwang
