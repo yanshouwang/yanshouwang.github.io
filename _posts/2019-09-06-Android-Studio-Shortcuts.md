@@ -8,6 +8,7 @@ tags: Android Studio 快捷键
 |说明|Windows|macOS|
 |-|-|-|
 |格式化|Ctrl + Alt + L|Command + Option + L|
+|快速查找文档|Ctrl + Q|Command + Q|
 |快速修复|Alt + Enter|Option + Enter|
 |同步|Ctrl + Alt + Y|Command + Option + Y|
 |搜索全部内容|两次 Shift|两次 Shift|
@@ -20,3 +21,8 @@ tags: Android Studio 快捷键
 |生成代码|Alt + Insert|Command + N|
 |转到声明|Ctrl + B / Ctrl + 点击|Command + B / Command + 点击|
 |转到实现|Ctrl + Alt + B|Command + Alt + B|
+|调试|Shift + F9|Control + D|
+|单步进入|F7|F7|
+|单步执行|F8|F8|
+|继续运行程序|F9|Command + Option + R|
+|复制当前行或选择|Ctrl + D|Command + D|
