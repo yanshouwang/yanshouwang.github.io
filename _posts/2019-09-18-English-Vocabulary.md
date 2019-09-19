@@ -49,3 +49,10 @@ tags: English Vocabulary 英语 词汇
 |emphasize|强调；重视；着重；使突出|
 |condensed|浓缩；压缩；冷凝|
 |perspective|观点；远景；景观；透视法|
+|evolve|进化；逐步发展；进化形成|
+|adherence|坚持；遵守；遵循|
+|novice|新手；初学者|
+|coplanar|共面的；同一平面的|
+|recap|同“recapitulation”；再生轮胎；翻新；扼要；概括|
+|vibrant|充满生机的；生机勃勃的；精力充沛的；鲜艳的|
+|swatch|（织物的小块）样品；布样|
