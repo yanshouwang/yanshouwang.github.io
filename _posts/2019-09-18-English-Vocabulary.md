@@ -56,3 +56,6 @@ tags: English Vocabulary 英语 词汇
 |recap|同“recapitulation”；再生轮胎；翻新；扼要；概括|
 |vibrant|充满生机的；生机勃勃的；精力充沛的；鲜艳的|
 |swatch|（织物的小块）样品；布样|
+|anatomic|解剖的；构造上的|
+|conceal|隐藏；隐瞒；掩盖|
+|irregular|不整齐的；不平整的；参差不齐的；不规则的；非正规军人|
