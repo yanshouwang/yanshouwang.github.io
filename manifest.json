@@ -1,6 +1,6 @@
 {
-    "name": "www",
-    "short_name": "www",
+    "name": "mzone",
+    "short_name": "mzone",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
