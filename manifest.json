@@ -1,6 +1,6 @@
 {
-    "name": "moonlight",
-    "short_name": "moonlight",
+    "name": "iclock",
+    "short_name": "iclock",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

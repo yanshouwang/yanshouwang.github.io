@@ -3,46 +3,36 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "a2056fe38c2e92d2e82b0537bf8daa5f",
-"assets/FontManifest.json": "e3adb23825d30bfb3f165e470ab43999",
-"assets/fonts/JetBrains/JetBrainsMono-Bold.ttf": "de2ce9b374d438453112214b81e41849",
-"assets/fonts/JetBrains/JetBrainsMono-BoldItalic.ttf": "b91689d7bbb1eec1e1c839d7ef9a0340",
-"assets/fonts/JetBrains/JetBrainsMono-ExtraBold.ttf": "fb177aca3a88192fea54d61ccdfccb90",
-"assets/fonts/JetBrains/JetBrainsMono-ExtraBoldItalic.ttf": "ef33cdb6734a9a9a40983fcb553e7460",
-"assets/fonts/JetBrains/JetBrainsMono-ExtraLight.ttf": "8fd44009bd92b12998cfe8cd28cb382a",
-"assets/fonts/JetBrains/JetBrainsMono-ExtraLightItalic.ttf": "1673c5d8387eac872c5e15737a2e49b3",
-"assets/fonts/JetBrains/JetBrainsMono-Italic.ttf": "342fa9d499e506144959ab12673ae0c4",
-"assets/fonts/JetBrains/JetBrainsMono-Light.ttf": "5f0dea0a306e3416b10c4f96ba8e854c",
-"assets/fonts/JetBrains/JetBrainsMono-LightItalic.ttf": "31ea3e84275f092f9a2790a2d07eaf36",
-"assets/fonts/JetBrains/JetBrainsMono-Medium.ttf": "2ab3c46a017cadf52f504054eee882ad",
-"assets/fonts/JetBrains/JetBrainsMono-MediumItalic.ttf": "7c0fde06b7cfe8baa7d85fae639b60ea",
-"assets/fonts/JetBrains/JetBrainsMono-Regular.ttf": "a7151c5349c1aa20beefb3c5430c3a79",
-"assets/fonts/JetBrains/JetBrainsMono-SemiBold.ttf": "1f31a0afcc72c1472ce7801fe86b5d53",
-"assets/fonts/JetBrains/JetBrainsMono-SemiBoldItalic.ttf": "eff07c40d692cec6eef64a6d7c342709",
-"assets/fonts/JetBrains/JetBrainsMono-Thin.ttf": "bfe2ec0a0644c54aab4ef5c62270e9d8",
-"assets/fonts/JetBrains/JetBrainsMono-ThinItalic.ttf": "cf05ccbc3ede81bec5398fb617caef46",
-"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
-"assets/NOTICES": "cfde7dd25ee94f850e95bb1d749d0ddb",
+  "assets/AssetManifest.json": "5d87718f9c8b7ee63fa63868bb570fa6",
+"assets/FontManifest.json": "373f0459fc5ef9490d0d13f3353d2e50",
+"assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
+"assets/NOTICES": "1c8778709153bdf2e6e0cd76f36861e0",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
+"assets/packages/fluentui_system_icons/fonts/FluentSystemIcons-Filled.ttf": "a6f7d69db042ef36bbbafddf79342970",
+"assets/packages/fluentui_system_icons/fonts/FluentSystemIcons-Regular.ttf": "dde495ac2baa874e70275829c31d7d93",
+"assets/shaders/ink_sparkle.frag": "ace9ffaa4bb1f3b627df3d3700c2b8b4",
+"canvaskit/canvaskit.js": "2bc454a691c631b07a9307ac4ca47797",
+"canvaskit/canvaskit.wasm": "bf50631470eb967688cca13ee181af62",
+"canvaskit/profiling/canvaskit.js": "38164e5a72bdad0faa4ce740c9b8e564",
+"canvaskit/profiling/canvaskit.wasm": "95a45378b69e77af5ed2bc72b2209b94",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
+"flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "f3293fe5b653c61bde8f64b12b3dd01b",
-"/": "f3293fe5b653c61bde8f64b12b3dd01b",
-"main.dart.js": "5976072c072a901bd15de9ea4d5b78fa",
-"manifest.json": "6c3e9dd002a432319ea4404d02755309",
-"version.json": "bfd2230ac4f72033711b5edbbccc037a"
+"index.html": "701779696e332bdbc000d07c24a9a716",
+"/": "701779696e332bdbc000d07c24a9a716",
+"main.dart.js": "61db6c866e12c75db19fedc576906545",
+"manifest.json": "f8dc10ad019b15768361f7e589c3ff20",
+"version.json": "ac95d83553b20f482019c5caa98effee"
 };
 
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = [
-  "/",
-"main.dart.js",
+  "main.dart.js",
 "index.html",
-"assets/NOTICES",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
@@ -141,9 +131,11 @@ self.addEventListener("fetch", (event) => {
     .then((cache) =>  {
       return cache.match(event.request).then((response) => {
         // Either respond with the cached resource, or perform a fetch and
-        // lazily populate the cache.
+        // lazily populate the cache only if the resource was successfully fetched.
         return response || fetch(event.request).then((response) => {
-          cache.put(event.request, response.clone());
+          if (response && Boolean(response.ok)) {
+            cache.put(event.request, response.clone());
+          }
           return response;
         });
       })
